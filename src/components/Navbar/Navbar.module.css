@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 701px) {
+form {
+    margin: 0 auto;
+}
+}
+
+.waitlistContainer {
+    height: 44px;
+    border: 2px solid #000;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #000000;
+border-radius: 1rem;
+max-width: 344px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+overflow: hidden;
+}
+
+button {
+    text-transform: uppercase;
+    background: #000;
+    color: #FFEB00;
+    font-size: 12px;
+    border-radius: 1rem 0 0 1rem;
+    font-weight: 700;
+    padding: 0 1.49rem;
+    letter-spacing: 0.72px;
+}
+
+input {
+    padding-left: 1rem;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+button, input {
+    height: 100%;
+}
+
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.social-links a {
+display: flex;
+width: 35px;
+height: 35px;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+
+.social-links a, .social-links svg {
+    transition: all 0.25s ease-in-out;
+    font-size: 1.6rem;
+}
+
+.social-links a:nth-child(3) svg {
+    font-size: 1.3rem;
+}
+
+.social-links a:hover {
+background: #000000;
+padding: 0.6rem;
+}
+
+.social-links a:hover svg {
+    fill: #FFEB00;
+}
