@@ -30,16 +30,19 @@ function App() {
 
   const handleNextClick = () => {
     const newScrollAmount = scrollAmount + 360;
-    setScrollAmount(newScrollAmount);
     wrapperRef.current.scrollLeft = newScrollAmount;
+    setScrollAmount(newScrollAmount);
+    setIsLastVisible(isLastChildVisible()); // Check if last child is visible after scrolling
   };
 
   const handlePrevClick = () => {
     const newScrollAmount = scrollAmount - 360;
-    setScrollAmount(newScrollAmount);
     wrapperRef.current.scrollLeft = newScrollAmount;
-     setIsLastVisible(isLastChildVisible());
+    setScrollAmount(newScrollAmount);
+    setIsLastVisible(isLastChildVisible()); // Check if last child is visible after scrolling
   };
+
+
   const cardsList = [
     {
       cardImg: Phone1,

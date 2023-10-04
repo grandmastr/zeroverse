@@ -22,7 +22,6 @@ border-radius: 1rem;
 max-width: 344px;
 display: flex;
 align-items: center;
-justify-content: space-between;
 width: 100%;
 overflow: hidden;
 }
@@ -40,10 +39,19 @@ button {
 
 input {
     padding-left: 1rem;
+    font-weight: 600;
+    color: #000;
+    flex: 1;
 }
+
+/* input:hover, input:focus {
+    border: 1px solid #FFEB00;
+    border-right: none;
+} */
 
 input::placeholder {
     color: #000;
+    font-weight: 500;
 }
 
 button, input {
@@ -73,11 +81,11 @@ border-radius: 50%;
     font-size: 1.3rem;
 }
 
-.social-links a:hover {
-background: #000000;
-padding: 0.6rem;
-}
-
 .social-links a:hover svg {
     fill: #FFEB00;
+}
+
+.social-links a:hover, .social-links a:focus {
+background: #000000;
+padding: 0.6rem;
 }
