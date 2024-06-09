@@ -7,17 +7,17 @@ const index = () => {
     <footer className='container'>
       <p>COPYRIGHT © 2023 ZEROVERSE</p>
       <nav>
-        <ul>
-          <li>
-            <a href="https://www.example.com">privacy policy</a>
-          </li>
-          <li>
-            <a href="https://www.example.com">terms of use</a>
-          </li>
-          <li>
-            <a href="https://www.example.com">contact us</a>
-          </li>
-        </ul>
+        {/*<ul>*/}
+        {/*  <li>*/}
+        {/*    <a href="https://www.example.com">privacy policy</a>*/}
+        {/*  </li>*/}
+        {/*  <li>*/}
+        {/*    <a href="https://www.example.com">terms of use</a>*/}
+        {/*  </li>*/}
+        {/*  <li>*/}
+        {/*    <a href="https://www.example.com">contact us</a>*/}
+        {/*  </li>*/}
+        {/*</ul>*/}
       </nav>
       {/* <div className={style.storesLinkWrapper}>
         <img src={DarkPlayStore} alt="playstore" />
