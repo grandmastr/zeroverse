@@ -2,7 +2,6 @@ import React, {useRef, useState} from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import {
-  AppStore,
   leftArrow,
   LightHeart,
   Message,
@@ -10,7 +9,7 @@ import {
   RightArrow,
   Share,
 } from './assets/svg';
-import {Phone1, Phone2, Phone3, Phone4} from './assets/png';
+import {Phone1, Phone2, Phone3, Phone4, LightAppStore} from './assets/png';
 
 function App() {
   const wrapperRef = useRef(null);
@@ -134,11 +133,11 @@ function App() {
                   </div>
               ))}
               <div className="comingSoonCard">
-                <span style={{padding: '1rem 2rem'}}>
+                <span style={{padding: '1rem'}}>
                   Join 50k+ users trying Zero.
                 </span>
                 <a href="https://testflight.apple.com/join/yPwXTov4">
-                  <img src={AppStore} alt="appstore"/>
+                  <img src={LightAppStore} alt="appstore"/>
                 </a>
               </div>
             </div>
