@@ -134,7 +134,7 @@ function App() {
               ))}
               <div className="comingSoonCard">
                 <span style={{padding: '1rem'}}>
-                  Join 50k+ users trying Zero.
+                  Powered by Elastic AI.
                 </span>
                 <a href="https://testflight.apple.com/join/yPwXTov4">
                   <img src={LightAppStore} alt="appstore"/>
